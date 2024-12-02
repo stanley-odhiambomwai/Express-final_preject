@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
+  <title>Contact Section</title>
+</head>
+<body>
+  <section id="contact">
+    <h2><u>Contact Us</u></h2>
+
+    <!-- Contact Details -->
+    <div id="contact-details">
+      <h3><u>Contact Information</u</h3>
+      <p><strong>Address:</strong> Wesland-mall, Nairobi-001, Kenya</p>
+      <p><strong>Phone:</strong> 0114 575 328</p>
+      <p><strong>Email:</strong> westlands970@gmail.com</p>
+    </div>
+
+   
+    <div id="contact-form">
+      <h3><u>Send Us a Message</u></h3>
+      <form action="/submit-form" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
